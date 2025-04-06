@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Module Detection | EduTrace</title>
+  <link rel="stylesheet" href="module-detection.css"/>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">EduTrace</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="module-detection.html" class="active">Detect</a>
+        <div class="avatar">U</div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="module-container">
+    <h2>Upload Syllabus</h2>
+    <input type="file" id="syllabus" />
+    <button class="btn light" onclick="uploadFile()">Upload File</button>
+
+    <h2>Enter Question</h2>
+    <input type="text" id="question" placeholder="Input" oninput="handleQuestion()" />
+
+    <h2>Subject Name</h2>
+    <div class="output" id="subjectOutput">Output</div>
+
+    <h2>Module Number</h2>
+    <div class="output" id="moduleNumberOutput">Output</div>
+
+    <h2>Module Name</h2>
+    <div class="output" id="moduleNameOutput">Output</div>
+
+    <h2>Module Content</h2>
+    <div class="

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>How It Works | EduTrace</title>
+  <link rel="stylesheet" href="how-it-works.css" />
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">EduTrace</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="how-it-works.html" class="active">How It Works</a>
+        <a href="detect.html">Detect</a>
+        <a href="login.html" class="login-btn">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>How It Works</h1>
+    <p>
+      Syllabus Query System is built to help students quickly find the subject, module, and relevant content 
+      for any academic question based on their uploaded syllabus. Here's how it works:
+    </p>
+
+    <ol>
+      <li>
+        <strong>Upload the Syllabus PDF</strong>: Users begin by uploading the official Third Year 
+        Computer Engineering syllabus PDF. The system verifies whether the uploaded file is valid and 
+        then extracts and processes all subject and module data from it.
+      </li>
+
+      <li>
+        <strong>Ask a Question</strong>: After the syllabus is uploaded and verified, users can enter any 
+        syllabus-related question into the input box. This could be a theoretical question, a keyword, or 
+        even a brief topic phrase.
+      </li>
+
+      <li>
+        <strong>Module and Subject Detection</strong>:<br/>
+        Based on the question, the system detects and displays the following:
+        <ul>
+          <li>Subject name</li>
+          <li>Module number</li>
+          <li>Matched module content</li>
+        </ul>
+        This helps users know exactly where their question fits within the syllabus.
+      </li>
+
+      <li>
+        <strong>Video Resource Integration</strong>:<br/>
+        To enhance learning, the system fetches relevant educational videos from YouTube based on the 
+        detected topic or module. These videos appear alongside the text results.
+      </li>
+
+      <li>
+        <strong>Search History</strong>:<br/>
+        For logged-in users, all queries are saved to their personal history. This allows them to revisit 
+        previous questions and track their learning progress over time.
+      </li>
+    </ol>
+
+    <div class="center-btn">
+      <button class="detect-module-btn">Detect Module</button>
+    </div>
+  </main>
+
+  <script src="how-it-works.js"></script>
+</body>
+</html>
